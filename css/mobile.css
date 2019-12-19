@@ -10,7 +10,7 @@ body{
 
     .navbar{
         position: fixed;
-        border: 1px solid blue;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.582);
         z-index: 999999999;
         background-color: black;
         width: 100%;
