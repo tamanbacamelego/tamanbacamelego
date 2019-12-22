@@ -1,0 +1,224 @@
+body{
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y: inherit;
+    color: white;
+    height: 1000px;
+}
+
+@media only screen and (max-width : 720px) {
+
+    .navbar{
+        position: fixed;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.582);
+        z-index: 999999999;
+        background-color: black;
+        width: 100%;
+        height: 55px;
+        top: 0;
+        left: 0;
+        padding-top: 0px;
+        text-align: center;
+    }
+    
+    .brand{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .brand h1{
+        position: relative;
+        top: -25px;
+        font-size: 20px;
+        
+    }
+    .brand p{
+        position: relative;
+        top: -5px;
+        font-size: 15px;
+
+    }
+
+    .utama{
+        width: 100%;
+        position: fixed;
+        color: white;
+        top: 200px;
+        z-index: 9;
+        height: 100%;
+    }
+
+    .kata-kiri{
+        position: fixed;
+        top: 300px; 
+        left: 30px;
+        width: 100%;
+        z-index: 9; 
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .logo{
+        border-radius: 100%;
+        width: 40%;
+        position: fixed;
+        left: 30%;
+        top: 120px;
+        z-index: 9;
+    }
+
+    .nav-don{
+        position: fixed;
+        bottom: 100px;
+        color: black;
+        text-decoration: none;
+        background-color: yellow;
+        font-style: italic;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bolder;
+        border-radius: 10px;
+        left: 40%
+    }
+
+    .nav-bck{
+        position: fixed;
+        top: 10px;
+        left: 20px;
+        color: black;
+        text-decoration: none;
+        background-color: yellow;
+        font-style: italic;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bolder;
+        border-radius: 10px;
+    }
+
+    .nav-don:hover{
+        background-color: white;
+    }
+
+    .kedua{
+        background-color: rgba(231, 229, 229, 0.945);
+        color: black;
+        width: 100%;
+        height: 180%;
+        z-index: 9999999;
+        position: absolute;
+        left: 0;
+        top: 100%;
+    }
+
+    .visi{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.411);
+        background-color: white;
+        width: 80%;
+        left: 7%;
+        height: 300px;
+        margin-right: 10px;
+        margin-top: 50px;
+        position: relative;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .ketiga{
+        background-color: rgba(51, 50, 50, 0.945);
+        color: white;
+        width: 100%;
+        height: 95%;
+        z-index: 9999999;
+        position: absolute;
+        left: 0;
+        top: 280%;
+    }
+
+    .ketiga h1{
+        text-align: center; 
+        position: relative;
+        top: 20px;
+    }
+
+    .keempat{
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+        color: black;
+        position: fixed;
+        left: 0;
+        top: 55px;
+    }
+
+    .d1{
+        height: 45%;
+        background-color: yellow;
+    }
+
+
+    .d1 h1{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .donasi h1{
+        display: none;
+    }
+
+    .item{ 
+        font-size: 12px;
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    #left{
+        margin-left: 60px;  
+    }
+
+    .desk-img{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .info-donasi{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 300px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    
+    .btn{
+        background-color: white;
+        padding: 5px;
+        border: transparent;
+        border-radius: 5px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .don{
+        font-size: 15px;
+    }
+
+    #telp{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .don p{
+        margin-top: -5px;
+    }
+
+}
